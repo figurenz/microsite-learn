@@ -1,0 +1,13 @@
+---
+layout: null
+---
+[
+  {% for ta in site.territorial_authorities %}
+    {
+      "title"    : "{{ ta.display-name | default: ta.data | default: ta.title }}",
+      "regions" : "{{ site.data.Synonyms[ta.data].regions | join: ', ' }}",
+      "localities" : "{{ site.data.Synonyms[ta.data].localities | join: ', ' }}",
+      "url"      : "{{ ta.url | relative_url }}"
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
