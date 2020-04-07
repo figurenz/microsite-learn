@@ -4,19 +4,17 @@ title: About
 isHome: true
 ---
 
-# About Places
+# About Learn with Figure.NZ
 
-Figure.NZ Places is a free tool to help you find and explore data about New Zealand’s district council and city council areas. By showing you data to consider alongside what candidates are saying, we hope it will help you make informed decisions during the 2019 local elections.
+Learn with Figure.NZ is a free tool to help you learn more about how to understand and use data to inform your thinking. You'll find guides and resources you can read and download that share what our team at Figure.NZ have learned about using data.
 
-Places uses data cleaned and published on [Figure.NZ](https://figure.nz). It brings together figures from multiple government agencies in one place, so you can easily understand what’s going on in your area and compare it to other areas of New Zealand.
-
-Places uses an open-source tool called Fundamental Figures to generate the data files this website uses. You can read and re-use this code in our [GitHub repository](https://github.com/WikiNewZealand/fundamental-figures). Unfortunately, we can’t open-source Places because some cosmetic elements are not available under an open source license. If you’d like a copy of the Places website without these elements, contact us at <help@figure.nz>.
+Can't find what you're looking for? Email us at <help@figure.nz> and let us know what you need.
 
 ## Who made this?
 
-Places is brought to you by [Figure.NZ](https://figure.nz).
+Learn with Figure.NZ is brought to you by [Figure.NZ](https://figure.nz).
 
-Figure.NZ gratefully acknowledges Sam Wood of [Tentacle Software Limited](http://www.tentaclesoftware.com/), without whom Places would not exist. Sam built the [Fundamental Figures](https://github.com/WikiNewZealand/fundamental-figures) processing tool and helped assemble the finished Places product.
+Illustrations are made using the [Humaaans illustration library](https://www.humaaans.com/). We thank them for sharing such a useful tool under Creative Commons licensing.
 
 ### Figure.NZ
 
@@ -35,11 +33,3 @@ Now that we’ve established the technology, systems, and processes needed to ma
 [<i class="fa fa-twitter fa-fw" aria-hidden="true"></i> www.twitter.com/FigureNZ](https://twitter.com/FigureNZ)
 
 [<i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i> www.facebook.com/FigureNZ](https://facebook.com/FigureNZ)
-
-### Tentacle Software 
-
-Tentacle Software is a software development company based in Auckland, New Zealand. They make cool stuff for the web.
-
-[<i class="fa fa-globe fa-fw" aria-hidden="true"></i> www.tentaclesoftware.com/](http://tentaclesoftware.com)
-
-[<i class="fa fa-twitter fa-fw" aria-hidden="true"></i> www.twitter.com/tentaclesoft](https://twitter.com/tentaclesoft)
