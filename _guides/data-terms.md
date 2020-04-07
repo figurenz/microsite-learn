@@ -3,6 +3,7 @@ layout: content
 data: data-terms
 title: Basic concepts of data
 isHome: true
+keywords: glossary, terms, definition, aggregate, open data, census, survey, sample, dataset, variable, median, mean, rate, index, trend
 ---
 
 # {{ page.title }}

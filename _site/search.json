@@ -1,3 +1,15 @@
 [
   
+    {
+      "title"    : "5 questions to ask about charts",
+      "keywords" : "reading charts, understand data, charts,",
+      "url"      : "/guides/5-questions.html"
+    },
+  
+    {
+      "title"    : "Basic concepts of data",
+      "keywords" : "glossary, terms, definition, aggregate, open data, census, survey, sample, dataset, variable, median, mean, rate, index, trend",
+      "url"      : "/guides/data-terms.html"
+    }
+  
 ]
