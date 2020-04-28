@@ -1,5 +1,6 @@
 ---
 layout: content
+data: about
 title: About
 isHome: true
 ---
