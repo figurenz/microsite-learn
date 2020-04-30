@@ -10,6 +10,8 @@ keywords: measures, measurements
 
 There are lots of different ways to measure data. When you're looking at a chart or a map or dataset, understanding the type of measurement you're looking at helps you to understand what's going on.
 
+Some of these measures are also calculations. This means that the data is counted or measured and then transformed to help you understand it.
+
 ## Types of measures
 
 ### Counts
@@ -54,3 +56,18 @@ Similar to proportions or percentages, using a rate on a column or bar chart hel
 Like proportions or percentages, using a rate on a line chart is a way of telling us whether something is increasing or decreasing compared to the population as a whole.
 
 ![Line chart showing rate of mortality for influenza and pneumonia in NZ]({{site.baseurl}}/assets/img/charts/measures-rate.png)
+
+### Averages and Medians
+
+Averages (also called means) and medians are ways to look at counts or measurements of a large number of things. They're both used when we're trying to get a feel for the most common experience of a group.
+
+Averages look at the most common experience, and medians look at the experience of the person in the middle of the group.
+
+On a line chart, averages or means show us how that common experience is changing over time.
+
+![Line chart showing average weekly household expenditure on building-related
+insurance in NZ. The line is increasing.]({{site.baseurl}}/assets/img/charts/measures-avg-line.png)
+
+On a column chart, they're often used to compare two or more different groups.
+
+![Columns charts showing average hourly wages among Pacific people. Managers earn the most, labourers the least.]({{site.baseurl}}/assets/img/charts/measures-avg-col.png)
