@@ -1,7 +1,7 @@
 ---
 layout: content
 data: about
-title: Reading charts
+title: Basics of reading a chart
 isHome: true
 keywords: chart
 ---

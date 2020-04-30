@@ -1,7 +1,7 @@
 ---
 layout: content
 data: measures
-title: How do we measure data?
+title: Different ways data is measured
 isHome: true
 keywords: measures, measurements
 ---

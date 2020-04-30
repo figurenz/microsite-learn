@@ -1,7 +1,7 @@
 ---
 layout: content
 data: line-chart
-title: How to read a line chart
+title: Reading a line chart
 isHome: true
 keywords: line chart, time series, rate
 ---

@@ -6,6 +6,8 @@ analytics: true
 collections:
   guides:
     output: true
+  references:
+    output: true
 
 markdown: kramdown
 
