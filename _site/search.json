@@ -7,9 +7,27 @@
     },
   
     {
+      "title"    : "Reading charts",
+      "keywords" : "chart",
+      "url"      : "/guides/chart-reading-basics.html"
+    },
+  
+    {
       "title"    : "Basic concepts of data",
       "keywords" : "glossary, terms, definition, aggregate, open data, census, survey, sample, dataset, variable, median, mean, rate, index, trend",
       "url"      : "/guides/data-terms.html"
+    },
+  
+    {
+      "title"    : "How to read a line chart",
+      "keywords" : "line chart, time series, rate",
+      "url"      : "/guides/line-charts.html"
+    },
+  
+    {
+      "title"    : "How do we measure data?",
+      "keywords" : "measures, measurements",
+      "url"      : "/guides/measures.html"
     }
   
 ]

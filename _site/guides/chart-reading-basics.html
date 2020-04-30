@@ -2,21 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Learn with Figure.NZ -  </title>
-    <meta name="description" content="Find and use stats and data about  and its Council to help you decide in the 2019 Local Elections">
+    <title>Learn with Figure.NZ - about </title>
+    <meta name="description" content="Find and use stats and data about cities, districts, and councils all over New Zealand to help you decide in the 2019 Local Elections.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:site_name" content="Learn with Figure.NZ">
     <meta property="og:title" content="Learn with Figure.NZ">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://localhost:4000/404.html">
-    <meta name="og:description" content=" ">
-    <meta name="description" content=" ">
+    <meta property="og:url" content="http://localhost:4000/guides/chart-reading-basics.html">
+    <meta name="og:description" content="Learn about data, open data, and data visualisation.">
+    <meta name="description" content="Learn about data, open data, and data visualisation.">
     <meta name="twitter:site" content="@FigureNZ">
     <meta name="twitter:title" content="Learn with Figure.NZ">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description" content=" ">
-    <meta name="twitter:image" content="http://localhost:4000/assets/img/tile/.jpg" >
+    <meta name="twitter:description" content="Learn about data, open data, and data visualisation.">
+    <meta name="twitter:image" content="http://localhost:4000/assets/img/tile/nz.jpg" >
     <meta name="apple-mobile-web-app-title" content="Learn with Figure.NZ" />
     <link rel="apple-touch-icon" href="/assets/img/favicons/AppleTouch.png" sizes="180x180">
     <link rel="icon" href="/assets/img/favicons/32x32.ico" sizes="32x32" type="image/png">
@@ -63,27 +63,82 @@
         </header>
 
         <main>
-            <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+            <style>
+    .cover-image {
+        background: url('/assets/img/extra-wide/about.png') center no-repeat; 
+        background-size: cover;
+    }
+    @media only screen and (max-width: 650px) {
+        .cover-image {
+            background-image: url('/assets/img/tile/about.png');
+        }
+    }
+    @media only screen and (max-width: 650px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    .cover-image {
+        background-image: url('/assets/img/banner/about.png');
+        }
+    }
+    @media only screen and (max-width: 1300px) {
+        .cover-image {
+            background-image: url('/assets/img/banner/about.png');
+        }
+    }
+    @media only screen and (max-width: 1300px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    .cover-image {
+        background-image: url('/assets/img/wide/about.png');
+        }
+    }
+    @media only screen and (max-width: 2600px) {
+        .cover-image {
+            background-image: url('/assets/img/wide/about.png');
+        }
+    }
+    @media only screen and (max-width: 2600px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    .cover-image {
+        background-image: url('/assets/img/extra-wide/about.png');
+        }
+    }
 </style>
+<article class="article-page">
+    <div class="page-image">
+        <div class="cover-image"></div>
+    </div>
+    <div class="wrapper">
+        <div class="page-content">
+            <h1 id="reading-charts">Reading charts</h1>
 
-<div class="container">
-  <h1>404</h1>
+<p>When you first look at a chart, it’s easy to miss important details that help you understand what the chart’s data says. Follow these steps to help ensure you don’t miss important bits.</p>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<p>Once you understand what the chart’s data shows, you can then use Figure.NZ’s 
+5 questions to help contextualise and understand the data.</p>
 
+<h2 id="read-the-words-on-the-chart">Read the words on the chart</h2>
+
+<p>Read the title, the axis labels, and the legends. Check any definitions for words you don’t know. You may find these in the metadata, or you might need to look up the source information. Read who collected the data, and how they collected it. Are they a trustworthy source?</p>
+
+<h2 id="check-the-axis-scales">Check the axis scales</h2>
+
+<p>Check how each axis is scaled. Is it a simple number, or is it thousands or millions. Check if the axis scale is consistently spaced (linear), or if it uses a different scale like log scale.</p>
+
+<p>A log scale is a way of showing numbers that are over a very wide range on a single chart. It’s often used for exponential growth to help us assess whether the rate of growth is increasing or decreasing.</p>
+
+<p>This can also help identify charts where someone is trying to mislead you by using an inconsistent scale.</p>
+
+<h2 id="check-the-axis-start-point">Check the axis start point</h2>
+
+<p>Generally, you expect a linear scale chart to start the y-axis (vertical axis) at 0. If a chart doesn’t start at 0, it can be a warning sign. However, not all charts that start at a number other than 0 are misleading. Sometimes, when you’re looking at a timeseries with small but significant changes to a large number, starting at 0 would hide these changes. In this instance, it can be helpful to start at a larger number, but the axis should be clearly labelled to show this.</p>
+
+<h2 id="read-the-metadata">Read the metadata</h2>
+
+<p>It sounds boring, but metadata has really important information like who collected the data, when it was collected, how it was collected, and sometimes even why it was collected.</p>
+
+<p>It may tell you limitations of the data, or alert you to issues in data quality.</p>
+
+<p>It may have definitions for terms you find on the chart. Reading the metadata gives you secret superpowers for understanding a chart.</p>
+
+        </div> 
+    </div>        
+</article>
         </main>
 
         <footer class="main-footer">

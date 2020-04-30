@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Learn with Figure.NZ - about </title>
+    <title>Learn with Figure.NZ - line-chart </title>
     <meta name="description" content="Find and use stats and data about cities, districts, and councils all over New Zealand to help you decide in the 2019 Local Elections.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:site_name" content="Learn with Figure.NZ">
     <meta property="og:title" content="Learn with Figure.NZ">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://localhost:4000/about.html">
+    <meta property="og:url" content="http://localhost:4000/guides/line-charts.html">
     <meta name="og:description" content="Learn about data, open data, and data visualisation.">
     <meta name="description" content="Learn about data, open data, and data visualisation.">
     <meta name="twitter:site" content="@FigureNZ">
@@ -65,37 +65,37 @@
         <main>
             <style>
     .cover-image {
-        background: url('/assets/img/extra-wide/about.png') center no-repeat; 
+        background: url('/assets/img/extra-wide/line-chart.png') center no-repeat; 
         background-size: cover;
     }
     @media only screen and (max-width: 650px) {
         .cover-image {
-            background-image: url('/assets/img/tile/about.png');
+            background-image: url('/assets/img/tile/line-chart.png');
         }
     }
     @media only screen and (max-width: 650px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
     .cover-image {
-        background-image: url('/assets/img/banner/about.png');
+        background-image: url('/assets/img/banner/line-chart.png');
         }
     }
     @media only screen and (max-width: 1300px) {
         .cover-image {
-            background-image: url('/assets/img/banner/about.png');
+            background-image: url('/assets/img/banner/line-chart.png');
         }
     }
     @media only screen and (max-width: 1300px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
     .cover-image {
-        background-image: url('/assets/img/wide/about.png');
+        background-image: url('/assets/img/wide/line-chart.png');
         }
     }
     @media only screen and (max-width: 2600px) {
         .cover-image {
-            background-image: url('/assets/img/wide/about.png');
+            background-image: url('/assets/img/wide/line-chart.png');
         }
     }
     @media only screen and (max-width: 2600px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
     .cover-image {
-        background-image: url('/assets/img/extra-wide/about.png');
+        background-image: url('/assets/img/extra-wide/line-chart.png');
         }
     }
 </style>
@@ -105,35 +105,67 @@
     </div>
     <div class="wrapper">
         <div class="page-content">
-            <h1 id="about-learn-with-figurenz">About Learn with Figure.NZ</h1>
+            <h1 id="how-to-read-a-line-chart">How to read a line chart</h1>
 
-<p>Learn with Figure.NZ is a free tool to help you learn more about how to understand and use data to inform your thinking. You’ll find guides and resources you can read and download that share what our team at Figure.NZ have learned about using data.</p>
+<h2 id="what-is-a-line-chart">What is a line chart?</h2>
 
-<p>Can’t find what you’re looking for? Email us at <a href="mailto:help@figure.nz">help@figure.nz</a> and let us know what you need.</p>
+<p>Line charts are one of the most commonly used chart types. A line chart is most often used to show how something changes over time, like the population of New Zealand. You may have heard this type of data or chart called a ‘time series’.</p>
 
-<h2 id="who-made-this">Who made this?</h2>
+<p><img src="/assets/img/charts/line-example.png" alt="Line chart of the estimated New Zealand population. The line chart is increasing. It has two lines, one based on de facto population, one based on resident population. De facto population is everyone present in NZ, rather than living in NZ." /></p>
 
-<p>Learn with Figure.NZ is brought to you by <a href="https://figure.nz">Figure.NZ</a>.</p>
+<p>For this type of chart, the x-axis (that’s the horizontal one) will show time. It could be seconds, days, months, years, or even something like days since a certain event/threshold.</p>
 
-<p>Illustrations are made using the <a href="https://www.humaaans.com/">Humaaans illustration library</a>. We thank them for sharing such a useful tool under Creative Commons licensing.</p>
+<p>The y-axis (the vertical one) shows the thing you are measuring, like the number of people in New Zealand. Measures can be things like counts, rates, proportions, and more.</p>
 
-<h3 id="figurenz">Figure.NZ</h3>
+<p><a href="/guides/measures.html">Read our article about the different types of measures.</a></p>
 
-<p>Figure.NZ is a charity dedicated to getting the people of New Zealand using data to thrive.</p>
+<h2 id="understanding-a-line-chart">Understanding a line chart</h2>
 
-<p>We do this because we want to live in a country where everyone can take part in creating a delightful New Zealand. We believe we can progress towards that by helping everyone in our country understand the things they care about so they can make great choices.</p>
+<p>Before getting into specifics about line charts, we recommend you read our article on the basics of chart reading.</p>
 
-<p>We’re committed to making New Zealand’s public, aggregate data available through our website — for free, for everyone, forever — because we believe data is not just for experts, and its true value lies in people using it in their day to day lives.</p>
+<p>Once you’ve done that, we’re ready to look at some specifics of reading line charts.</p>
 
-<p>We’ve put data about New Zealand from over 175 different organisations into one easily searchable place, where more than 43,000 charts and datasets are available.</p>
+<h3 id="the-basics">The basics</h3>
 
-<p>Now that we’ve established the technology, systems, and processes needed to make our country’s data easily available, we’re focused on getting it into the hands of New Zealanders, and providing the support they need to make good use of it.</p>
+<p>Because line charts are all about how something changes over time, when we’re looking at a line chart, we tend to care less about an individual data point and more about the relationship between points.</p>
 
-<p><a href="https://figure.nz"><i class="fa fa-globe fa-fw" aria-hidden="true"></i> www.figure.nz</a></p>
+<p>When a value is higher than the previous value, the line slants upwards. When it’s smaller, it slants downwards. And when it’s the same, it’s flat.</p>
 
-<p><a href="https://twitter.com/FigureNZ"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i> www.twitter.com/FigureNZ</a></p>
+<p>This means we can understand the relationships between points by looking at two things: the shape of the line and the trend.</p>
 
-<p><a href="https://facebook.com/FigureNZ"><i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i> www.facebook.com/FigureNZ</a></p>
+<h3 id="look-at-the-shape">Look at the shape</h3>
+
+<p>The shape is what it sounds like: the physical appearance of the line.</p>
+
+<p>Is it spiky, going up and down in a seemingly unpredictable fashion? Lines that are spiky suggest the measurement is affected by a range of different factors that can be hard to predict.</p>
+
+<p><img src="/assets/img/charts/line-shape-spiky.png" alt="Line chart of price of bananas. The chart has a spiky line that doesn't align with any consistent time period." /></p>
+
+<p>Is it seasonal, with regular peaks and troughs in a pattern repeated over the time period? Lines that have regular peaks and troughs suggest that there is one or more factors that have a strong regualr impact on the measurement, like time of year.</p>
+
+<p><img src="/assets/img/charts/line-trend.png" alt="Line chart of public transport patronage in Auckland which spikes from month to month but overall increases each year" /></p>
+
+<p>Is it mostly consistent, with points that all seem to increase or decrease?</p>
+
+<p><img src="/assets/img/charts/line-shape-upwards.png" alt="Line chart of estimated population of Māori in New Zealand. The line steadily slopes upward" /></p>
+
+<p>Is it flat, with little change in either direction?</p>
+
+<p><img src="/assets/img/charts/line-shape-flat.png" alt="Line chart of public transport patronage in Wellington which shows bus, rail, and ferry. Each line is mostly flat" /></p>
+
+<p>Is it curving upwards, increasing by a larger amount each time? Lines that curve upwards indicate rapid growth, suggesting that one or more factors may have changed and are having a strong impact.</p>
+
+<p><img src="/assets/img/charts/line-shape-curve.png" alt="Line chart of passenger arrivals at Auckland airport from China. The arrivals start low, and then gradually increase more and more each year, resulting in a chart that curves upwards. There are some years where it drops slightly, so it is not a perfect curve." /></p>
+
+<h3 id="look-at-the-trend">Look at the trend</h3>
+
+<p>The trend tells us, overall, whether the values are increasing or decreasing or staying the same. You can have a line chart that is really spiky in shape with lots of increases and decreases, but that overall trends upwards over time.</p>
+
+<p><img src="/assets/img/charts/line-trend.png" alt="Line chart of public transport patronage in Auckland which spikes from month to month but overall increases each year" /></p>
+
+<h2 id="what-next">What next?</h2>
+
+<p>Now that you know how to read a line chart, you’re ready to use the <a href="/guides/5-questions.html">5 questions to understand the chart.</a></p>
 
         </div> 
     </div>        
