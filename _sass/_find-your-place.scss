@@ -44,6 +44,7 @@ main {
 }
 
 .main-header {
+  padding: 0px;
 
   .menu-icon{
     color: $menu-header-colour;
@@ -340,7 +341,8 @@ a:hover {
 
 .home-section {
   background: $blurple;
-  padding: 6rem 0 1rem;
+  padding: 4rem 0 1rem;
+  text-align: center;
 
   h1 {
     color: $white;
@@ -354,7 +356,7 @@ a:hover {
   }
   .header-badge {
     float: left;
-    margin-top: -120px;
+    margin-top: -60px;
     margin-left: -10px;
   }
 }
@@ -422,7 +424,13 @@ a:hover {
   .home-section {
     padding-top: 66px;
     .header-badge {
-      margin-top: -98px;
+      margin-top: -50px;
+    }
+    h1 {
+      font-size: $h3-font-size;
+    }
+    h2 {
+      font-size: $h4-font-size;
     }
   }
   .article-page {
@@ -491,4 +499,49 @@ a:hover {
   a {
     color: white;
   }
+}
+
+
+
+#mc_embed_signup {
+  color: white;
+  padding-top: 1em;
+  clear: left; 
+  width:100%;
+  form {
+    display: flex;
+    flex-direction: column;
+    .clear {
+      display: block;
+      width: 100%;
+    }
+    #mce-EMAIL {
+      font-family: $h3-font-family;
+    }
+  }
+  input {
+    font-family: $h3-font-family;
+  }
+  .button {
+    background-color: #BA0A87;
+    font-size: 1em;
+    height: auto;
+    padding: .3em;
+  }
+  .button:hover {
+    background-color: rgb(148, 6, 108);
+  }
+}
+
+@media (min-width: 769px) {
+  #mc_embed_signup {
+    input.email, input.button {
+        width: 80%;
+        margin-bottom: 5px;
+    }
+  }
+}
+
+.header-text {
+  max-width: 80%;
 }
