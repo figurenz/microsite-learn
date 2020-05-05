@@ -22,7 +22,7 @@ The y-axis (the vertical one) shows the thing you are measuring, like the number
 
 ## Understanding a line chart
 
-Before getting into specifics about line charts, we recommend you read our article on the basics of chart reading.
+Before getting into specifics about line charts, we recommend you read our [article on the basics of chart reading]({% link _guides/chart-reading-basics.md %}).
 
 Once you've done that, we're ready to look at some specifics of reading line charts.
 
