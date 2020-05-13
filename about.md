@@ -13,7 +13,7 @@ Can't find what you're looking for? Email us at <help@figure.nz> and let us know
 
 ## Who made this?
 
-Learn with Figure.NZ is brought to you by [Figure.NZ](https://figure.nz).
+Learn with Figure.NZ is brought to you by [Figure.NZ](https://figure.nz). This project is supported by our friends at [Internet NZ](https://internetnz.nz). We are very grateful for both their support and their shared passion for helping the people of New Zealand to access and use information and technology.
 
 Illustrations are made using the [Humaaans illustration library](https://www.humaaans.com/). We thank them for sharing such a useful tool under Creative Commons licensing.
 
