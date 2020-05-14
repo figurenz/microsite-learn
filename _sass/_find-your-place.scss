@@ -191,17 +191,28 @@ a:hover {
       top: 3px;
       left: 5px;
     }
+
+    .center-image {
+    margin: 0 auto;
+    display: block;
+    }
+
+    .right-image {
+      float: right;
+      margin: 0 auto;
+      display: inline-flex;
+      }
    
     .close-button {
       border-radius: 5px;
-      padding: .5em;
+      padding: .5em 1em;
       margin-bottom: .5em;
       box-sizing: border-box;
       background: $button-colour;
       border-color: disintensify($button-colour);
       color: $white;
       font-family: $h3-font-family;
-      font-size: $h4-font-size;
+      text-decoration: none;
     
       &:not([disabled]):hover {
         border-color: $button-colour;
@@ -545,3 +556,4 @@ a:hover {
 .header-text {
   max-width: 80%;
 }
+
