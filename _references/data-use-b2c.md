@@ -1,18 +1,17 @@
 ---
 layout: content
 data: about
-title: Understanding the market for your B2B business
+title: Understanding the market for your B2C business
 isHome: true
 keywords: market research, market, business, customers, selling
 ---
 
 # {{ page.title }}
-## A short, practical guide to no-cost validation for B2B businesses
-This guide is for anyone with an idea for a product or service that they plan to sell directly to businesses in New Zealand. It will be especially useful for people who don’t have a lot of money to spend on researching and validating their idea.
-
+## A short, practical guide to no-cost validation for B2C businesses
+This guide is for anyone with an idea for a product or service that they plan to sell directly to customers in New Zealand. It will be especially useful for people who don’t have a lot of money to spend on researching and validating their idea.
 Specifically, we’ll show you how to validate your market using public data. Market validation is one step in the product validation process.
 
-[Download a copy of the guide]({{site.baseurl}}/assets/files/figure-nz-market-validation-b2b-guide.pdf){: .close-button}
+[Download a copy of the guide]({{site.baseurl}}/assets/files/figure-nz-market-validation-b2c-guide.pdf){: .close-button}
 
 ## What is product validation?
 ![illustration of a group of people with speech bubbles]({{site.baseurl}}/assets/img/drawings/people-speech.png){: .right-image }
@@ -54,7 +53,7 @@ Even if enough people agree there’s a problem and they like your solution, you
 ## Market Validation
 ### What it does
 - Identify your target market.
-- Identify how many people or organisations there are in your target market.
+- Identify how many people there are in your target market.
 - Indicate what would be financially viable and affordable for those customers.
 
 ### What it doesn’t do
@@ -73,16 +72,20 @@ Start by answering these 4 questions about your target audience.
 
 ### Who are they?
 You probably have an idea of who your target customer is. Start by writing that down.
-You might consider the following:
-- Where is their company based? Small town, main centre, rural, urban?
-- What type of organisation is it? Limited liability company, sole trader, non-profit, social enterprise, something else?
-- What industry are they in?
-- How long have they been operating?
-- How many employees do they have?
-- What’s their turnover?
+You might consider the following.
+- Where do they live? Small town, main centre, rural, urban?
+- How old are they?
+- Are they a particular gender?
+- Are they a particular ethnicity?
+- What level of education have they received?
+- Are they employed? If so, what types of jobs?
+- Are they in a particular income bracket?
+- Are they in a relationship?
+- What’s their family like? Do they have kids? Are they married?
+- What are their interests? Do they play sports or have a particular hobby?
 
 Some of these questions may not apply, or there might be some other characteristics that describe them.
-Even if you plan to eventually reach a wide audience, it’s easier and more effective to start by targeting a smaller group of organisations. That way, you can tailor your marketing, language, and platforms to appeal to your target customers.
+Even if you plan to eventually reach a wide audience, it’s easier and more effective to start by targeting a smaller group of people. That way, you can tailor your marketing, language, and platforms to appeal to your target customers.
 Keep in mind that your target customers may also change over time as you learn more.
 
 ### How many of them are there?
@@ -100,14 +103,14 @@ if the data you want is collected by a government agency. You can check for exis
 Some organisations (like Google) share data on things like search analytics, which you can use.
 
 ### Can they afford what you’re selling?
-Even if you’re targeting businesses in a particular income bracket, it helps to look at the overall expenses and spending of your target audience.
-Stats NZ, Ministry of Business, Innovation and Employment, and Inland Revenue all release data on business finances.
-Figure.NZ publishes a range of this data, including the following.
-- [Financial benchmarks for 43 industries by turnover band](https://figure.nz/table/0eVQYQrOcbA3BaSN)
-- [Financial performance by industry](https://figure.nz/table/JI8zcy9uI8s4YWvt)
-- [Linked Employer-Employee Dataset (LEED) measures by industry and firm size](https://figure.nz/table/BnyCXnOQ2zU5xs1Q)
+Even if you’re targeting people in a particular income bracket, it helps to look at the overall expenses and spending of your target audience.
+Stats NZ does the Household Economic Survey, which collects data that may help you work out if people can afford to buy what you’re selling.
+Figure.NZ publishes a range of data from this survey, including the following.
+- [Average weekly household expenditure by item](https://figure.nz/table/jHy5S55nCIvR1LC4)
+- [Average weekly household expenditure by region](https://figure.nz/table/ayBDSSW5Q376NSdU)
+- [Household expenditure on housing costs](https://figure.nz/table/qSPNShRkwuCf26lq)
 
-![example chart of Median earnings in the accommodation and food services industry in New Zealand]({{site.baseurl}}/assets/img/charts/b2b.png){: .center-image }
+![example chart of Average weekly expenditure for New Zealand households]({{site.baseurl}}/assets/img/charts/b2c.png){: .center-image }
 
 ### Is anyone else is selling the same thing?
 Before you start your product or service, you need to identify your competition.
@@ -125,14 +128,14 @@ Here are a few ways you can research the competition.
 Listed below are several tools you can use to find public data and identify your market size.
 Pick one of more of these tools and search for data that tells you how many businesses meet your criteria.
 For example:
-- How many women’s clothing retail businesses are there in Christchurch?
-- How long do these businesses stay active?
-- What are their turnover ratios like?
-Ideally, you’ll want the most recent data available.
+- How many people live in Christchurch aged 18-34?
+- How many earn $40-100k per year?
+- How many people play basketball?
+Ideally, you’ll want the most recent data available. In New Zealand, much of the data that will be useful comes from the Census, which is completed once every 5 years, but there are also other surveys like the Household Economic Survey which are very useful.
 
 ### [Figure.NZ Business Figures](https://figure.nz/business)
 https://figure.nz/business
-Business Figures helps New Zealand businesses find data to support smart decisions. Choose the industry your customers are in, and choose the location in New Zealand you’re planning to sell to — it could be the whole country, or it could be a smaller area. Once you’ve selected this information, Business Figures will show you relevant data. You can also click the “Industry and Trade” tab to find information about the business operations of the area you’re selling to.
+Business Figures helps New Zealand businesses find data to support smart decisions. Choose the industry your customers are in, and choose the location in New Zealand you’re planning to sell to — it could be the whole country, or it could be a smaller area. Once you’ve selected this information, Business Figures will show you relevant data. You can also click the “Customers” tab to find information about the population of the area you’re selling to.
 
 ### [Figure.NZ](https://figure.nz)
 Figure.NZ’s website has over 43,000 charts and datasets. The website search can be particularly helpful for finding data about things specific to your target market, like sports or hobby interests.
@@ -161,4 +164,4 @@ Want to know more about product validation, or how to work through the other 4 s
 [Smashing Magazine](https://www.smashingmagazine.com/2016/07/a-lean-approach-to-product-validation/) has a great detailed breakdown to follow.
 It’s especially relevant if you’re building a web or software product, but the basic principles also apply to other products and services.
 
-[Download a copy of the guide]({{site.baseurl}}/assets/files/figure-nz-market-validation-b2b-guide.pdf){: .close-button}
+[Download a copy of the guide]({{site.baseurl}}/assets/files/figure-nz-market-validation-b2c-guide.pdf){: .close-button}
