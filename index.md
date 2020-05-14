@@ -6,7 +6,7 @@ isHome: true
  <div class="home-section">  
     <div class="content wrapper">
         <a href="https://figure.nz"><img class="header-badge" src="{{site.baseurl}}/assets/img/ChartBadge.svg" /></a>
-        <img src="{{site.baseurl}}/assets/img/homegroup.png" alt="woman in a wheelchair looks at charts">
+        <img class="home-image" src="{{site.baseurl}}/assets/img/home-image.png" alt="woman in a wheelchair looks at charts">
         <h1>Learn to to use data one step at a time</h1>
         <h2>Data doesn't have to be confusing. Demystify data so you can help people, support your community, and grow your business.</h2> 
         <!-- Begin Mailchimp Signup Form -->
