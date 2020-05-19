@@ -63,7 +63,7 @@ main {
     }
   }
 
-  .main-nav {
+nav  .main- {
     height: inherit !important;
     max-height: 100vh !important;
     overflow-y: scroll; 
@@ -369,6 +369,10 @@ a:hover {
     float: left;
     margin-top: -60px;
     margin-left: -10px;
+    list-style-type: none;
+    .badge-list {
+      display: inline;
+    }
   }
 }
 
