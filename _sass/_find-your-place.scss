@@ -366,13 +366,10 @@ a:hover {
     font-size: 2em;
   }
   .header-badge {
-    float: left;
     margin-top: -60px;
-    margin-left: -10px;
+    margin-left: -40px;
     list-style-type: none;
-    .badge-list {
-      display: inline;
-    }
+    float: left;
   }
 }
 
