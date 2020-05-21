@@ -11,11 +11,11 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{site.url | append: page.url | xml_escape}}">
     <meta name="og:description" content="{% if page.isHome != true %}{{site.subtitle-ta | xml_escape}} {{page.display-name | default: page.data | default: page.title}}{% else %}{{site.subtitle | xml_escape}}{% endif %}">
-    <meta name="description" content="{% if page.isHome == true %}{{site.subtitle | xml_escape}}{% else %}{{site.subtitle-ta | xml_escape}} {{page.display-name | default: page.data | default: page.title}}{% endif %}">
+    <meta name="description" content="{% if page.isHome == true %}{{site.subtitle | xml_escape}}{% else %}{{page.title | xml_escape}} {{page.title | default: page.data | default: page.title}}{% endif %}">
     <meta name="twitter:site" content="@FigureNZ">
     <meta name="twitter:title" content="{{site.title | xml_escape}}">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description" content="{% if page.isHome == true %}{{site.subtitle | xml_escape}}{% else %}{{site.subtitle-ta | xml_escape}} {{page.display-name | default: page.data | default: page.title}}{% endif %}">
+    <meta name="twitter:description" content="{% if page.isHome == true %}{{site.subtitle | xml_escape}}{% else %}{{page.title | xml_escape}} {{page.display-name | default: page.data | default: page.title}}{% endif %}">
     <meta name="twitter:image" content="{% if page.isHome != true %}{{site.url}}/assets/img/tile/{{page.data}}.png{% else %}{{site.url}}/assets/img/home-image.png{% endif %}" >
     <meta name="apple-mobile-web-app-title" content="{{site.title | xml_escape}}" />
     <link rel="apple-touch-icon" href="{{site.baseurl}}/assets/img/favicons/AppleTouch.png" sizes="180x180">
