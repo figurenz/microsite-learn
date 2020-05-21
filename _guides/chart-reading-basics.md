@@ -2,7 +2,7 @@
 layout: content
 data: about
 title: Basics of reading a chart
-isHome: true
+isHome: false
 keywords: chart
 ---
 

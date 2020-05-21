@@ -2,7 +2,7 @@
 layout: content
 data: b2b
 title: Understanding the market for your B2B business
-isHome: true
+isHome: false
 keywords: market research, market, business, customers, selling
 ---
 

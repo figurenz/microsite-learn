@@ -2,7 +2,7 @@
 layout: content
 data: line-chart
 title: Reading a line chart
-isHome: true
+isHome: false
 keywords: line chart, time series, rate
 ---
 

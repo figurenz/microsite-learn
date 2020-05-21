@@ -2,7 +2,7 @@
 layout: content
 data: 5-questions
 title: 5 questions to ask about charts
-isHome: true
+isHome: false
 keywords: reading charts, understand data, charts,
 ---
 

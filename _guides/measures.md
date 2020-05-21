@@ -2,7 +2,7 @@
 layout: content
 data: measures
 title: Different ways data is measured
-isHome: true
+isHome: false
 keywords: measures, measurements
 ---
 
