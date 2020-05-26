@@ -10,7 +10,7 @@ isHome: true
         <li class="badge-list"><a href="https://internetnz.nz"><img src="{{site.baseurl}}/assets/img/inz.svg" /></a></li>
     </ul>
         <img class="home-image" src="{{site.baseurl}}/assets/img/home-image.png" alt="woman in a wheelchair looks at charts">
-        <h1>Learn to to use data one step at a time</h1>
+        <h1>Learn to use data one step at a time</h1>
         <h2>Data doesn't have to be confusing. Demystify data so you can help people, support your community, and grow your business.</h2> 
         <!-- Begin Mailchimp Signup Form -->
 <div id="mc_embed_signup">
